@@ -1,0 +1,195 @@
+body{
+    margin: 0 auto;
+    display: grid;
+}
+#top{
+    background: #091a48;
+    width:100%;
+    display: inline-flex;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 120px;
+}
+
+h6{
+    position: relative;
+    top: 47px;
+    left: 60px;
+}
+
+h6::after{
+    content: url(../img/arrow.png);
+    position: relative;
+    left: 5px;
+     top: -2px;
+}
+
+#line img{
+    width: 24px;
+    height: 17px;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    background: #f9bf00;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+}
+
+form{
+    position: relative;
+    top: 60px;
+    left: 80px;
+    display: inline-block;
+    height: 0;
+}
+
+input[type=text]{
+    width: 400px;
+    padding: 9px;
+}
+
+form i{
+    position: absolute;
+    top: 9px;
+    left: 400px;
+}
+
+input[type=button]{
+    padding: 11px;
+    border-radius: 4px;
+    background: #f9bf00;
+    border: yellow;
+}
+
+span{
+    background: #3a486d;
+    border-radius: 50%;
+    position: relative;
+    top: 55px;
+    left: 135px;
+    padding: 0;
+    margin-left: 1px;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+span:hover{
+    background: #f9bf00;
+}
+
+span i{
+    padding-left: 0;
+    color: white;
+    font-size: 22px !important;
+    padding-top: 9px;
+}
+
+#bottom{
+    width: 100%;
+    background: #f9bf00;
+   
+     display: inline-flex;
+}
+
+#bottom ul{
+    margin-left: 80px;
+    
+}
+#bottom li{
+    font-size: 12px;
+    display: inline;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#bottom li:hover{
+    background: #f5f4f8;
+    padding: 5px;
+    border-radius: 3px;
+}
+#bottom ul a{
+    text-decoration: none;
+    color: #826400;
+}
+#donate{
+     background: #dba800;
+     position: relative;
+     padding: 0px 25px;
+    left: 100px;
+}
+
+#donate a{
+     position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+   
+}
+
+#slider{
+    background-image: url(../img/slider.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: inline-block
+}
+
+#slider h1{
+  
+    padding: 110px 0px 25px 210px;
+}
+
+#slider ul{
+    list-style-type: none;
+     padding: 0 210px;
+}
+
+#slider a{
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px
+    
+  
+}
+
+#slider li{
+      margin: 25px; 
+     
+}
+#yellow a{
+    background: #f9bf00;
+    padding: 7px 35px;
+    color: #091a48;
+}
+
+#yellow a::before{
+    content: url(../img/lessthenbule.png);
+     position: relative;
+    left: -13px;
+}
+
+#a a{
+  background: #091a48;
+  padding: 7px 35px;
+  color: #fff;
+}
+#a a::before, #b a::before{
+    content: url(../img/lessthen.png);
+     position: relative;
+    left: -13px;
+    
+    
+}
+#b a{
+    background: #091a48;
+    padding: 7px 35px;
+    color: #fff;
+}
