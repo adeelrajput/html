@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+#tmc{
+    width: 62.5%;
+    margin: auto;
+    font-size: 13px;
+    text-align: center;
+    background: #f9bf00;
+    display: flex;
+    padding-right: 60px;
+}
+#blue span{
+    font-size: 50px;
+}
+
+#blue p{
+    margin: 0;
+}
+#blue{
+    width: 20%;
+    background: #091a48;
+    font-size: 14px;
+    margin: 0px;
+    color: #fff;
+    padding: 20px 0; 
+    display: inline-table;
+}
+
+#p{
+    padding: 20px;
+    width: 500px;
+}
+
+input[name=ask_imam]{
+    background: #091a48;
+    padding: 11px;
+    margin: auto;
+    width: 130px;
+    color: #fff;
+    border: 1px;
+    border-radius: 5px;
+}
+
+#boxes{
+    width: 90%;
+    margin: auto;
+    padding: 60px;
+}
+
+#first{
+    background: #091a48;
+    width: 25%;
+    padding: 0 34px 78px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin: 1% 1%;
+   
+}
+
+input[name=read_more]{
+    background: #f9bf00;
+    padding: 11px;
+    margin: auto;
+    width: 130px;
+    color: #fff;
+    border: 1px;
+    border-radius: 5px;
+}
+
+#first i{
+    position: relative;
+    right: 100px;
+    top: 44px;
+}
+
+.first{
+    float: left;
+    background: #f3f3f3;
+    width: 25%;
+    padding: 25px 34px;
+    margin: 1% 1%;
+}
+
+.first img{
+    width: 50px;
+    height: 40px;
+}
+
+.first p{
+    font-size: 13px;
+    margin: 0 0 0 50px;
+}
+.first h2{
+     margin: 0;
+    position: relative;
+    top: -40px;
+    left: 66px;
+}
+
+
+.second{
+    float: left;
+    background: #f3f3f3;
+    width: 25%;
+    padding: 25px 34px;
+    margin: 1% 1%;
+}
+
+.second img{
+    width: 50px;
+    height: 40px;
+}
+
+.second p{
+    font-size: 13px;
+    margin: 0 0 0 50px;
+}
+.second h2{
+     margin: 0;
+    position: relative;
+    top: -40px;
+    left: 66px;
+}
+
+
